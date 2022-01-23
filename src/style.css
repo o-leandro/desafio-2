@@ -139,8 +139,13 @@ footer p {
     font-weight: 500;
 }
 
-@media (max-width: 1024px) {
-    
+@media (max-width: 1220px) {
+    .box-tennis {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -149,11 +154,10 @@ footer p {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-bottom: 50px;
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 525px) {
     .home__title {
         font-size: 28px;
     }
