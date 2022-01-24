@@ -117,6 +117,7 @@ body {
 
 .tennis img {
     transition: .3s;
+    cursor: pointer;
 }
 
 .tennis img:hover {
@@ -149,11 +150,26 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    .home {
+        background-image: url(img/bg-home-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 378px;
+    }
+
     .box-tennis {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width: 636px) {
+    .tennis {
+        width: 370px;
     }
 }
 
@@ -182,7 +198,4 @@ footer p {
         gap: 30px;
     }
 
-    .tennis {
-        width: 370px;
-    }
 }
